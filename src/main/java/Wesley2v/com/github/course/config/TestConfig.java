@@ -1,4 +1,4 @@
-package Wesley2v.com.github.course.cong;
+package Wesley2v.com.github.course.config;
 
 import Wesley2v.com.github.course.entities.User;
 import Wesley2v.com.github.course.repositories.UserRepository;
