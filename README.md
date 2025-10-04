@@ -67,3 +67,39 @@ O projeto inclui as seguintes funcionalidades:
 - Este projeto foi criado como um ambiente de aprendizado para explorar os conceitos do Spring Boot 3 e JPA.
 - Certifique-se de ter o Java(21) e o Maven instalados para executar o projeto.
 
+## Endpoits
+
+Recuperar os usuários:
+```https
+  GET /users
+```
+
+Recuperar os pedidos: 
+```https
+  GET /orders
+```
+
+Recuperar as categorias:
+```https
+  GET /categories
+```
+
+Recuperar os produtos:
+```https
+  GET /products
+```
+
+Cadastrar um usuário:
+```https
+  POST /users
+```
+
+Atualizar um usuário:
+```https
+  PUT /users/{id}
+```
+
+Deletar um usuário:
+```https
+  DELETE /users/{id}
+```
